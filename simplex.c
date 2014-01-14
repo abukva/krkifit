@@ -193,17 +193,21 @@ double* minimize(double x[], double y[], int n, int k)
 
 	if(itteration%42==0)
 	{
-		if(i>0)
+		if(itteration>0)
 		{
-			diff=abs(conv_test-function_values[best]);
+			diff=fabs(conv_test-function_values[best]);
 		}
 		conv_test=function_values[best];
 	}
 
 	itteration++;
 
-	} while (itteration<intterations_max || diff>0.0001);
-	printf("%d\n",itteration);
+	} while (itteration<intterations_max && diff>0.0001);
+	
+	if(itteration==intterations_max)
+	{
+		printf("The algorithm has not converge.\n");
+	}
 	return simplex[best];
 
 }
