@@ -7,4 +7,6 @@ Authors:
 
 Aleksandar Bukva sa_ki94@yahoo.co.uk
 
+Aleksa Krstic aleksakrstic94@gmail.com
+
 Daniel Siladji szilagyi.d@gmail.com
