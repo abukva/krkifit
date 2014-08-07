@@ -1,7 +1,7 @@
 krkifit
 =======
 
-KrkiFIT is a fitting program wrote in C for an old 286 computer at my university.
+KrkiFIT is a fitting program written in C for an old 286 computer at my university.
 
 Authors:
 
